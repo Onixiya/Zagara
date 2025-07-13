@@ -1,6 +1,4 @@
-﻿using MelonLoader.Utils;
-
-namespace Zagara{
+﻿namespace Zagara{
     public class Roach:SC2Tower{
         public override string Name=>"ZagaraRoach";
         public override bool AddToShop=>false;

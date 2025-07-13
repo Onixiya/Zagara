@@ -1,17 +1,4 @@
-﻿using Il2CppAssets.Scripts.Data.Global;
-using Il2CppAssets.Scripts.Models.Towers.Weapons.Behaviors;
-using Il2CppAssets.Scripts.Simulation.Audio;
-using Il2CppAssets.Scripts.Simulation.SMath;
-using Il2CppAssets.Scripts.Simulation.Towers.Weapons.Behaviors;
-using Il2CppAssets.Scripts.Unity.UI_New.InGame;
-using Il2CppNinjaKiwi.Common.ResourceUtils;
-using Il2CppNinjaKiwi.GUTS.Models.ContentBrowser;
-using MelonLoader.Utils;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using UnityEngine.Rendering;
-namespace Zagara{
+﻿namespace Zagara{
     public class Zagara:SC2Tower{
         public override string Name=>"Zagara";
         public override Faction TowerFaction=>Faction.Zerg;
@@ -510,7 +497,7 @@ namespace Zagara{
             banelingsActivateAttack.lifespan=0.501f;
             ProjectileModel banelingsProj=banelingsActivateAttack.attacks[0].weapons[0].projectile;
             List<Model>banelingsProjBehav=banelingsProj.behaviors.ToList();
-            banelingsProjBehav.Add(new DamageModel("BanelingDamage",20,999999,true,false,false,BloonProperties.Purple,BloonProperties.Purple,false));
+            banelingsProjBehav.Add(new DamageModel("BanelingDamage",20,999999,true,false,false,BloonProperties.Purple,BloonProperties.Purple,false,false));
             banelingsProj.behaviors=banelingsProjBehav.ToArray();
 			return zagara;
 		}
@@ -642,7 +629,7 @@ namespace Zagara{
             dropPodsProj.display=new(Name+"-DropPodFallPrefab");
             List<Model>dropPodsProjBehav=dropPodsProj.behaviors.ToList();
             dropPodsProjBehav.Add(new CreateSoundOnProjectileExpireModel("DropPods",new("Explode1",new("Zagara-DropPodExplode1")),new("Explode2",new("Zagara-DropPodExplode2")),
-                new("Explode3",new("Zagara-DropPodExplode3")),new("Explode1",new("Zagara-DropPodExplode1")),new("Explode2",new("Zagara-DropPodExplode2"))));
+                new("Explode3",new("Zagara-DropPodExplode3")),new("Explode1",new("Zagara-DropPodExplode1")),new("Explode2",new("Zagara-DropPodExplode2")),0));
             DisplayModel dropPodsProjDisplay=dropPodsProjBehav.GetModel<DisplayModel>();
             dropPodsProjDisplay.delayedReveal=0;
             dropPodsProjDisplay.display=dropPodsProj.display;
@@ -667,7 +654,6 @@ namespace Zagara{
                     break;
                 case"WeaponModel_DropPods":
                     zagaraCom.dropPods+=1;
-                    Log(zagaraCom.dropPods);
                     break;
             }
         }

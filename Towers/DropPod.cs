@@ -1,13 +1,4 @@
-﻿using Il2CppAssets.Scripts;
-using Il2CppAssets.Scripts.Simulation;
-using Il2CppAssets.Scripts.Simulation.SimulationBehaviors;
-using Il2CppAssets.Scripts.Simulation.Towers.Behaviors;
-using Il2CppAssets.Scripts.Simulation.Towers.Emissions;
-using Il2CppInterop.Common.XrefScans;
-using Il2CppInterop.Runtime.XrefScans;
-using Il2CppNinjaKiwi.Common;
-
-namespace Zagara{
+﻿namespace Zagara{
     public class DropPod:SC2Tower{
         public override string Name=>"ZagaraDropPod";
         public override bool AddToShop=>false;
@@ -32,7 +23,6 @@ namespace Zagara{
                 Zergling,Hydralisk,Roach,Ultralisk
             }
             public void OnDestroy(){
-                Log("droppod spawned "+unitsSpawned);
                 DropPodComs.Remove(tower.Id);
             }
         }
