@@ -623,7 +623,7 @@
             dropPodsWeapon.name="DropPods";
             dropPodsWeapon.Rate=0.31f;
             dropPodsWeapon.behaviors=new[]{(new CreateSoundOnProjectileCreatedModel("DropPods",new("Fall1",new("Zagara-DropPodFall1")),new("Fall2",new("Zagara-DropPodFall2")),
-                new("Fall3",new("Zagara-DropPodFall3")),new("Fall1",new("Zagara-DropPodFall1")),new("Fall2",new("Zagara-DropPodFall2")),"DropPods"))};
+                new("Fall3",new("Zagara-DropPodFall3")),new("Fall1",new("Zagara-DropPodFall1")),new("Fall2",new("Zagara-DropPodFall2")),null,null,null,null,null,"","",""))};
             ProjectileModel dropPodsProj=dropPodsWeapon.projectile;
             dropPodsProj.name="DropPod";
             dropPodsProj.display=new(Name+"-DropPodFallPrefab");

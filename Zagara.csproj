@@ -27,7 +27,7 @@
       <HintPath>\Program Files (x86)\Steam\steamapps\common\BloonsTD6/MelonLoader/net6/0Harmony.dll</HintPath>
     </Reference>
 	<Reference Include="Il2CppNinjaKiwi.Common">
-	  <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Il2CppNinjaKiwi.Common.dll</HintPath>
+	  <HintPath>\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Il2CppNinjaKiwi.Common.dll</HintPath>
 	</Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>\Program Files (x86)\Steam\steamapps\common\BloonsTD6/MelonLoader/Il2CppAssemblies/Assembly-CSharp.dll</HintPath>
@@ -42,7 +42,7 @@
       <HintPath>\Program Files (x86)\Steam\steamapps\common\BloonsTD6/MelonLoader/Il2CppAssemblies/Il2Cppmscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Il2CppNinjaKiwi.GUTS">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Il2CppNinjaKiwi.GUTS.dll</HintPath>
+      <HintPath>\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Il2CppNinjaKiwi.GUTS.dll</HintPath>
     </Reference>
     <Reference Include="Il2CppSystem.Core">
       <HintPath>\Program Files (x86)\Steam\steamapps\common\BloonsTD6/MelonLoader/Il2CppAssemblies/Il2CppSystem.Core.dll</HintPath>
@@ -51,25 +51,25 @@
       <HintPath>\Program Files (x86)\Steam\steamapps\common\BloonsTD6/MelonLoader/net6/MelonLoader.dll</HintPath>
     </Reference>
     <Reference Include="SC2Expansion">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\BloonsTD6\Mods\SC2Expansion.dll</HintPath>
+      <HintPath>\Program Files (x86)\Steam\steamapps\common\BloonsTD6\Mods\SC2Expansion.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <HintPath>\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <HintPath>\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>\Program Files (x86)\Steam\steamapps\common\BloonsTD6/MelonLoader/Il2CppAssemblies/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>\Program Files (x86)\Steam\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <EmbeddedResource Include="Bundles\hydralisk.bundle" />
     <EmbeddedResource Include="Bundles\roach.bundle" />
